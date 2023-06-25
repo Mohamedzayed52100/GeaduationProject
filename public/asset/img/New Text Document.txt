@@ -1,0 +1,42 @@
+    <style>
+        .content {
+            position: relative;
+            top: 200px;
+        }
+        
+        .imgh {
+            display: flex;
+            align-items: center;
+            margin-left: 395px;
+        }
+        
+        .imgh img {
+            width: 50px;
+            height: 50px;
+        }
+        
+        .imgh h1 {
+            margin-top: 50px;
+        }
+        
+        p {
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+
+
+     <div class="content w-full">
+            <div class="center">
+
+                <div class="imgh">
+                    <img src="../asset/img/hand.jpg">
+
+                    <h1>Welcome Mohamed ibrahim</h1>
+                </div>
+                <p>The right care when you need it most </p>
+                <p>Care that’s about you. Always. With 24/7 access to certified doctors and specialists, you’re in good hands </p>
+                <p>Tele-Med is dedicated to helping you get better and stay well.</p>
+            </div>
+
+        </div>

@@ -1,0 +1,408 @@
+.error {
+	color: red;
+	text-align: center;
+}
+
+
+/*----------------------- Sync Icon -----------------------*/
+div.fixed {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	margin-top: 5px;
+
+}
+
+/*--------------- User Menu (My Profile)------------------- */
+
+.avatar {
+	position: relative;
+	display: inline-block;
+	width: 3rem;
+	height: 3rem
+}
+
+.avatar>img {
+	width: 100%;
+	height: 100%;
+	-o-object-fit: contain;
+	object-fit: contain;
+}
+
+
+/*--------------------- Dahboard Header -----------------------*/
+
+.header {
+	background: #fff;
+	border-bottom: 1px solid #f0f0f0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1001;
+	height: 60px;
+}
+
+/* Notification */
+.user-menu {
+	float: right;
+	margin: 0;
+	position: relative;
+	z-index: 99;
+}
+
+.user-menu.nav>li>a {
+	color: rgb(0, 0, 0);
+	font-size: 14px;
+	line-height: 58px;
+	padding: 0 15px;
+	height: 60px;
+}
+
+.user-menu.nav>li>a:hover,
+.user-menu.nav>li>a:focus {
+	background-color: rgba(112, 110, 110, 0.2);
+}
+
+.user-menu.nav>li>a:hover i,
+.user-menu.nav>li>a:focus i {
+	color: rgb(177, 49, 49);
+}
+
+.user-img {
+	display: inline-block;
+	margin-right: 3px;
+	position: relative;
+}
+
+.user-menu .dropdown-menu {
+	min-width: 200px;
+	padding: 0;
+}
+
+.user-menu .dropdown-menu .dropdown-item {
+	padding: 7px 15px;
+	text-align: center;
+	border-top: 1px solid #e3e3e3;
+
+
+}
+
+.user-menu .dropdown-menu .dropdown-item:hover {
+	color: #fff;
+	background: #000000;
+}
+
+.user-header {
+	background-color: #f9f9f9;
+	display: flex;
+	padding: 10px 15px;
+}
+
+.user-header .user-text {
+	margin-left: 37px;
+
+}
+
+.user-header .user-text h6 {
+	margin-bottom: 2px;
+}
+
+.menu-title {
+	color: #a3a3a3;
+	display: block;
+	font-size: 14px;
+	margin-bottom: 5px;
+	padding: 0 25px;
+}
+
+.leftHeader {
+	justify-content: center;
+}
+
+.leftHeader img {
+	width: 45px;
+	height: 45px;
+	margin-top: 7px;
+	margin-left: 10px;
+}
+
+.leftHeader .Labtxt {
+	display: inline;
+	font-family: "Space Mono", monospace;
+	color: #000c52;
+	text-shadow: 2px 2px 2px #7eb5d4;
+
+}
+
+
+.middleHeader {
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #eeeeee;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+	display: flex;
+	width: fit-content;
+	justify-content: space-between;
+
+}
+
+.middleHeader .pagetxt {
+	font-family: Ubuntu;
+	color: #000c52;
+	text-shadow: 2px 2px 2px #7eb5d4;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/*---------------------- Header of page 'Nav Bar' -----------------------*/
+
+.main-wrapper {
+	width: 100%;
+	height: 100vh;
+	min-height: 100vh;
+}
+
+.page-wrapper {
+	padding-top: 60px;
+	position: relative;
+	transition: all 0.4s ease;
+}
+
+.page-wrapper>.content {
+	padding: 1rem 1rem 0;
+
+}
+
+.page-header {
+	margin-bottom: 1rem;
+	justify-content: center;
+}
+
+.page-header .breadcrumb ul {
+	list-style-type: none;
+	display: flex;
+}
+
+.page-header .breadcrumb li {
+	display: flex;
+}
+
+.page-header .breadcrumb a {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	font-size: 1em;
+	color: rgb(0, 0, 0);
+}
+
+.page-header .breadcrumb a:hover {
+	color: deepskyblue;
+}
+
+.page-header .breadcrumb a.active {
+	border-bottom: 1px solid deepskyblue;
+	color: deepskyblue;
+
+}
+
+.page-header .breadcrumb i {
+	margin-top: 3px;
+	margin-right: 3px;
+
+}
+
+.page-title {
+	text-align: center;
+	font-family: Ubuntu;
+	color: rgb(0, 0, 0);
+	margin-bottom: 5px;
+}
+
+/*----------------------- Dashboard  Cards -----------------------*/
+
+.dash-widget-icon {
+	align-items: center;
+	display: inline-flex;
+	font-size: 1.8rem;
+	height: 50px;
+	justify-content: center;
+	line-height: 48px;
+	text-align: center;
+	width: 50px;
+	border: 2px solid;
+	border-radius: 50px;
+	padding: 28px;
+	background: -webkit-linear-gradient(bottom, #606c88, #3f4c6b);
+	background: -o-linear-gradient(bottom, #606c88, #3f4c6b);
+	background: -moz-linear-gradient(bottom, #606c88, #3f4c6b);
+	background: linear-gradient(bottom, #606c88, #3f4c6b);
+
+}
+
+/*Number*/
+.dash-count {
+	font-size: 18px;
+	margin-left: 15px;
+	margin-top: 5px;
+	color: red;
+}
+
+.dash-widget-info h3 {
+	margin-bottom: 20px;
+}
+
+.textmuted {
+	color: #000000;
+}
+
+.dash-widget-header {
+	align-items: center;
+	display: flex;
+	margin-bottom: 15px;
+	width: 228px;
+}
+
+/*Body*/
+.card-body {
+	align-items: center;
+}
+
+.card {
+	margin-bottom: 35px;
+	width: fit-content;
+	border: 2px solid;
+	border-color: #606c88;
+	border-radius: 30px;
+	margin-left: 45px;
+}
+
+/*----------------------- Dashboard  Table -----------------------*/
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.card-title {
+	text-align: center;
+	color: #3b3e49;
+	margin-top: 8px;
+}
+
+.card-table,
+.Customcard-table {
+	margin-bottom: 15px;
+	border: 1px solid;
+	border-color: #c1c6d3;
+	width: 99%;
+	margin-left: 7px;
+}
+
+td {
+	border-bottom: 1px solid #606c88;
+}
+
+.fe {
+	color: #000000;
+
+}
+
+.fa-check {
+	color: green;
+	font-size: 20px
+}
+
+.fa-remove {
+	color: red;
+	font-size: 20px
+}
+
+.fa-comments {
+	color: #606c88;
+	font-size: 20px
+}
+
+.fa-female {
+	color: #e69b9a;
+	font-size: 20px
+}
+
+.fa-male {
+	color: #99c9ff;
+	font-size: 20px
+}
+
+.btn {
+	border: transparent;
+}
+
+/*---------- Contact form -------------*/
+.modal-body textarea {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+	resize: none;
+	height: 150px;
+}
+
+.modal-body textarea:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+.btn-success,
+.btn-danger {
+	width: 40%;
+	height: 40px;
+}
+
+.btn-success {
+	margin-right: 89px;
+}
+
+/*----------------------- Error -----------------------*/
+
+.error-page {
+	align-items: center;
+	color: #1f1f1f;
+	display: flex;
+}
+
+.error-page .main-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	height: auto;
+	justify-content: center;
+	width: 100%;
+	min-height: unset;
+}
+
+.error-box {
+	margin: 0 auto;
+	max-width: 480px;
+	padding: 1.875rem 0;
+	text-align: center;
+	width: 100%;
+}
+
+.error-box h1 {
+	color: #a01616;
+	font-size: 10em;
+}
+
+.error-box p {
+	margin-bottom: 1.875rem;
+}
+
+.error-box .btn {
+	border-radius: 50px;
+	font-size: 18px;
+	font-weight: 600;
+	min-width: 200px;
+	padding: 10px 20px;
+}

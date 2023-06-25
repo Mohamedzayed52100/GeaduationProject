@@ -1,0 +1,108 @@
+html, body {
+    min-height: 100%;
+    background-color: #eeeeee;
+}
+body, div, form, input, p { 
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    color: #666;
+    line-height: 28px;
+}
+h1{
+    margin-left: 300px;
+}
+h1, h4 {
+    font-weight: 400;
+}
+h4 {
+    margin: 25px 0 5px;
+    color: #095484;
+}
+.testbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 3px;
+}
+form {
+    width: 60%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 6px 30px #C8D0D8;
+}
+input {
+    width: auto;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+.question-answer label {
+    display: block;
+ }
+.custom_question-answer{
+    display: inline;
+}
+
+.btn-block {
+    margin-top: 20px;
+    text-align: center;
+}
+ 
+.submit {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    background-color: #095484;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: #0666a3;
+}
+.name , .BMI , .physical , .mental{
+    border: 1px solid #ccc;
+    height: 30px;
+}
+.name {
+    margin-left: 6px;
+    width:84%;
+}
+.BMI , .physical , .mental{
+    width: 100%;
+}
+span {
+    color: red;
+}
+input:hover, select:hover {
+    outline: none;
+    border: 1px solid #095484;
+    background: #e6eef7;
+}
+select {
+    padding: 7px 0;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background: transparent;
+    width: 100%;
+}
+option {
+    background: #fff;
+}
+ul {
+    list-style: none;
+    margin-left: 20px;
+}
+  
+ul li {
+    display: inline-block;   
+    padding: 4px 10px;
+    background-color: #EEE;
+    border-radius: 5px;
+}

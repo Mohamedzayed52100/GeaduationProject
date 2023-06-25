@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --green:#020c7b;
+    --black:#0c0032;
+    --light-color:rgb(251, 247, 247);
+    --box-shadow:.5rem .5rem 0 rgba(10, 21, 120, 0.2);
+    --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
+    --border:.2rem solid var(--green);
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding:2rem 9%;
+}
+
+
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    text-shadow: var(--text-shadow);
+    text-transform: uppercase;
+    color:var(--black);
+    font-size: 5rem;
+    letter-spacing: .4rem;
+    margin-bottom: 10px;
+}
+
+.heading span{
+    text-transform: uppercase;
+    color:var(--green);
+}
+
+
+
+
+/**************RESULT**********************/
+.result{
+    background: #fff;
+}
+.result .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-right: 1px;
+    
+}
+
+.result .row .image{
+    flex:1 1 25rem;
+    
+    
+    
+}
+
+.result .row .image img{
+    width: 550px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-top: 70px;
+
+    
+}
+
+.result .row .content{
+    flex:1 1 30rem;
+}
+
+.radioresult {
+    color: #020c7b;
+    margin-left: 200px;
+
+}
+
+
+
+.result .row .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    line-heigth:1.8rem;
+    
+}
+
+.result .row .content p{
+     color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    
+}
+
+ul li{
+    font-size:18px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: var(--black);
+}
+
+.button {
+    text-align: center;
+    margin-left:40%;
+    margin-top:-37px;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
